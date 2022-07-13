@@ -1,0 +1,11 @@
+# 基于.gitignore做补充
+
+/dist/*
+.local
+.output.js
+/node_modules/**
+
+**/*.svg
+**/*.sh
+
+/public/*
