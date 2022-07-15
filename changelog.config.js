@@ -15,6 +15,7 @@ module.exports = {
   ],
   maxMessageLength: 64,
   minMessageLength: 3,
+  // 可删除不需要的交互提示问题
   questions: [
     'type',
     'scope',
