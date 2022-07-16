@@ -25,7 +25,7 @@ module.exports = {
     'issues',
     'lerna'
   ],
-  scopes: [],
+  scopes: ['components', 'utils', 'styles', 'deps', 'other'],
   types: {
     chore: {
       description: 'Build process or auxiliary tool changes',
@@ -79,6 +79,7 @@ module.exports = {
     },
     messages: {
       type: "Select the type of change that you're committing:",
+      scope: 'Select the scope this component affects:',
       customScope: 'Select the scope this component affects:',
       subject: 'Write a short, imperative mood description of the change:\n',
       body: 'Provide a longer description of the change:\n ',
