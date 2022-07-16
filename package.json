@@ -13,12 +13,17 @@
     "prepare": "husky install",
     "cz": "cz"
   },
+  "gitHooks": {
+    "commit-msg": "node ./scripts/test.js"
+  },
   "dependencies": {
     "pinia": "^2.0.14",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.43",
